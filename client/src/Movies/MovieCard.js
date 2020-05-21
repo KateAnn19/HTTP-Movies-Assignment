@@ -2,6 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import { useHistory, useParams, useLocation } from "react-router-dom";
 
+
 const MovieCard = props => {
   const { title, director, metascore, stars, id} = props.movie;
   const { setMovieList, getMovieList} = props;
@@ -44,6 +45,7 @@ const MovieCard = props => {
         </div>
       ))}
       {location.pathname == '/' ? <button onClick={deleteItem}>Delete</button> : null}
+     
     </div>
   );
 };
