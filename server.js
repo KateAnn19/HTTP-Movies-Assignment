@@ -34,7 +34,7 @@ let movies = [
     title: "Terminator 2: Judgement Day",
     director: "James Cameron",
     metascore: 94,
-    stars: ["Arnold Schwarzenegger", "Edward Furlong", "Linda Hamilton"]
+    stars: ["Arnold Schwarzenegger", "Edward Furlong", "Linda Hamilton", "Test"]
   },
   {
     id: 4,
